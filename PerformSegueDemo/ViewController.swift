@@ -15,5 +15,15 @@ class ViewController: UIViewController {
     }
 
 
+    @IBSegueAction func showSecond(_ coder: NSCoder, sender: Any?, segueIdentifier: String?) -> secondViewController? {
+        let controller = secondViewController(coder: coder)
+        controller?.num = .random(in: 1...100)
+        return controller
+    }
+    
+    
+    @IBAction func tap(_ sender: Any) {
+        performSegue(withIdentifier: "showGrade", sender: nil)
+    }
 }
 

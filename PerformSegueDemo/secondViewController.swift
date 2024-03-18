@@ -8,11 +8,19 @@
 import UIKit
 
 class secondViewController: UIViewController {
-
+    var num: Int!
+    
+    
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        if let num {
+            label.text = "\(num)"
+        }
+        
     }
     
 

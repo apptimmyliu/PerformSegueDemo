@@ -16,6 +16,8 @@
 		A501A1D42BA8691F0051971D /* PerformSegueDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501A1D32BA8691F0051971D /* PerformSegueDemoTests.swift */; };
 		A501A1DE2BA8691F0051971D /* PerformSegueDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501A1DD2BA8691F0051971D /* PerformSegueDemoUITests.swift */; };
 		A501A1E02BA8691F0051971D /* PerformSegueDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501A1DF2BA8691F0051971D /* PerformSegueDemoUITestsLaunchTests.swift */; };
+		A501A1ED2BA86D420051971D /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501A1EC2BA86D420051971D /* secondViewController.swift */; };
+		A501A1EF2BA881E00051971D /* PerformSegueDemo in Resources */ = {isa = PBXBuildFile; fileRef = A501A1EE2BA881E00051971D /* PerformSegueDemo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A501A1D92BA8691F0051971D /* PerformSegueDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformSegueDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A501A1DD2BA8691F0051971D /* PerformSegueDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformSegueDemoUITests.swift; sourceTree = "<group>"; };
 		A501A1DF2BA8691F0051971D /* PerformSegueDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformSegueDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A501A1EC2BA86D420051971D /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		A501A1EE2BA881E00051971D /* PerformSegueDemo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PerformSegueDemo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A501A1BB2BA8691D0051971D /* PerformSegueDemo */,
+				A501A1EE2BA881E00051971D /* PerformSegueDemo */,
 				A501A1D22BA8691F0051971D /* PerformSegueDemoTests */,
 				A501A1DC2BA8691F0051971D /* PerformSegueDemoUITests */,
 				A501A1BA2BA8691D0051971D /* Products */,
@@ -102,6 +107,7 @@
 				A501A1BC2BA8691D0051971D /* AppDelegate.swift */,
 				A501A1BE2BA8691D0051971D /* SceneDelegate.swift */,
 				A501A1C02BA8691D0051971D /* ViewController.swift */,
+				A501A1EC2BA86D420051971D /* secondViewController.swift */,
 				A501A1C22BA8691D0051971D /* Main.storyboard */,
 				A501A1C52BA8691F0051971D /* Assets.xcassets */,
 				A501A1C72BA8691F0051971D /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A501A1C62BA8691F0051971D /* Assets.xcassets in Resources */,
+				A501A1EF2BA881E00051971D /* PerformSegueDemo in Resources */,
 				A501A1C92BA8691F0051971D /* Base in Resources */,
 				A501A1C42BA8691D0051971D /* Base in Resources */,
 			);
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A501A1ED2BA86D420051971D /* secondViewController.swift in Sources */,
 				A501A1C12BA8691D0051971D /* ViewController.swift in Sources */,
 				A501A1BD2BA8691D0051971D /* AppDelegate.swift in Sources */,
 				A501A1BF2BA8691D0051971D /* SceneDelegate.swift in Sources */,
